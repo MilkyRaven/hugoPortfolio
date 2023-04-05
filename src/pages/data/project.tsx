@@ -38,9 +38,9 @@ export default function project() {
                     <div className='w-20 h-20 bg-slate-300'></div>
                     </div>
                 </div>
-                <div className='flex place-items-center'>
+                <div className='flex justify-end place-items-center mt-4'>
                     <p>Project 2</p>
-                    <div className='w-20 h-20 bg-slate-300'></div>
+                    <div className='w-10 h-10 bg-slate-300'></div>
                 </div>
             </div>
             <Footer></Footer>
