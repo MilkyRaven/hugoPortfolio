@@ -23,7 +23,7 @@ export default function Home() {
         <Nav></Nav>
         {/* Welcome Section */}
         <Header></Header>
-        <Typing></Typing>
+        {/* <Typing></Typing> */}
         {/* Data Analytics */}
         <DataAnalytics></DataAnalytics>
         {/* Design */}
