@@ -16,7 +16,7 @@ export default function project() {
                 <div className='w-20 h-20 bg-slate-300'></div>
                 <div>
                     <p>Data Collection:</p>
-                    <p>To start our analysis, we collected data from the store's website using Google Analytics. We tracked a variety of metrics, including pageviews, bounce rate, time on site, and conversion rate. We also collected demographic information about the store's visitors, including age, gender, and location.</p>
+                    <p>To start our analysis, we collected data from the stores website using Google Analytics. We tracked a variety of metrics, including pageviews, bounce rate, time on site, and conversion rate. We also collected demographic information about the stores visitors, including age, gender, and location.</p>
                 </div>
                 <div className='flex'>
                     <p>Data Cleaning: Before we could begin analyzing the data, we needed to clean it. We removed any duplicate entries, fixed any formatting errors, and ensured that all the data was in the correct format for analysis.</p>
@@ -24,7 +24,7 @@ export default function project() {
                 <div>
                     <p>Data Analysis:</p>
                     <p>We used a variety of analytical techniques to explore the data and identify patterns. Some of the techniques we used include:
-                        Segmentation analysis - We segmented the store's customers based on demographic data to identify patterns in customer behavior. We looked at age, gender, and location to see if there were any correlations between these factors and customer behavior.
+                        Segmentation analysis - We segmented the stores customers based on demographic data to identify patterns in customer behavior. We looked at age, gender, and location to see if there were any correlations between these factors and customer behavior.
                         Funnel analysis - We looked at the conversion funnel to identify where customers were dropping off in the purchasing process. We looked at each step of the funnel, from landing page to checkout, to see if there were any bottlenecks.
                         Cohort analysis - We analyzed customer behavior over time to identify any trends or patterns. We looked at how customer behavior changed over time, and whether there were any seasonal trends.</p>
                     <div className='w-20 h-20 bg-slate-300'></div>
