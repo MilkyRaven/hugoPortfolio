@@ -5,7 +5,7 @@ type Props = {}
 
 const Nav = (props: Props) => {
     return (
-        <div className='flex place-items-center place-content-between p-5 mt-6 ml-2 mb-8 mr-3 sticky top-0 bg-white z-30'>
+        <div className='flex place-items-center place-content-between p-5 mt-6 mb-8 mr-3 sticky top-0 bg-white z-30'>
             {/* <div className='temporaryMenu'>
                     <Link href={"/data"}><span>Data</span></Link>
                     <Link href={"/design"}><span>Design</span></Link>
