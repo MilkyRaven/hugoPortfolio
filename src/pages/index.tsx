@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import Hi from '../../components/Hi'
 import Nav from '../../components/Nav'
 import Header from '../../components/Header'
 import Typing from '../../components/Typing'
@@ -20,6 +20,7 @@ export default function Home() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <main>
+        <Hi></Hi>
         <Nav></Nav>
         {/* Welcome Section */}
         <Header></Header>
