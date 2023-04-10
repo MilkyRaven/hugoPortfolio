@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         crimson: ["Crimson Pro", "serif"],
-        chopper: ["Chopper", "serif"],
+        jost: ['Jost', 'sans-serif'],
       },
     },
   },

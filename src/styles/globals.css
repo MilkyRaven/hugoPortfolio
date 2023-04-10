@@ -1,40 +1,4 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
-
-/* * {
-    padding: 0;
-    margin: 0 auto;
-}
-:link {
-    text-decoration: no;
-}
-.hero {
-    background-color: rgb(194, 194, 194);
-    height: 400px;
-}
-
-.description {
-    font-size: 50px;
-}
-.pic {
-    width: 200px;
-    height: 200px;
-    background-color: rgb(194, 194, 194);
-    margin: 10px;
-}
-.typing {
-    height: 200px;
-}
-.temporaryMenu > :link {
-    padding: 10px ;
-    text-decoration: none;
-}
-.galleryDisplay {
-    display: flex;
-    flex-flow: row;
-}
-.galleryDisplay > div {
-    margin: 5px;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Jost:wght@300&display=swap');
