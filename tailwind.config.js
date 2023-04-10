@@ -13,6 +13,7 @@ module.exports = {
       fontFamily: {
         crimson: ["Crimson Pro", "serif"],
         jost: ['Jost', 'sans-serif'],
+        chopper: ['Chopper']
       },
     },
   },

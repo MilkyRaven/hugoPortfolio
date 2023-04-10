@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-
 const Nav = () => {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +11,7 @@ const Nav = () => {
     return (
         <nav className="flex items-center justify-between flex-wrap bg-white p-8">
             <div className="flex items-center flex-shrink-0 mr-6">
-                <h1 className='text-6xl'>HUGO</h1>
+                <h1 className='font-chopper text-6xl'>HUGO</h1>
             </div>
             <div className="block lg:hidden">
                 <button
