@@ -10,9 +10,9 @@ const Nav = () => {
     };
 
     return (
-        <nav className="flex items-center justify-between flex-wrap bg-white p-6">
+        <nav className="flex items-center justify-between flex-wrap bg-white p-8">
             <div className="flex items-center flex-shrink-0 mr-6">
-                <h1 className='text-5xl'>HUGO</h1>
+                <h1 className='text-6xl'>HUGO</h1>
             </div>
             <div className="block lg:hidden">
                 <button
@@ -30,29 +30,29 @@ const Nav = () => {
                 className={`${isOpen ? 'block' : 'hidden'
                     } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
             >
-                <div className="text-sm lg:flex-grow">
+                <div className="text-3xl m-10 slg:flex-grow">
                     <Link href="/">
-                        <p className="block mt-4 lg:inline-block lg:mt-0 mr-4">
+                        <p className="mb-16 block mt-4 lg:inline-block lg:mt-0 mr-4">
                             HOME
                         </p>
                     </Link>
                     <Link href="/data">
-                        <p className="block mt-4 lg:inline-block lg:mt-0 mr-4">
+                        <p className="block mt-4 mb-10 lg:inline-block lg:mt-0 mr-4">
                             DATA
                         </p>
                     </Link>
                     <Link href="/design">
-                        <p className="block mt-4 lg:inline-block lg:mt-0 mr-4">
+                        <p className="block mt-4 mb-10 lg:inline-block lg:mt-0 mr-4">
                             DESIGN
                         </p>
                     </Link>
                     <Link href="/photography">
-                        <p className="block mt-4 lg:inline-block lg:mt-0 mr-4">
+                        <p className="block mt-4 mb-16 lg:inline-block lg:mt-0 mr-4">
                             PHOTOGRAPHY
                         </p>
                     </Link>
                     <Link href="/about">
-                        <p className="block mt-4 lg:inline-block lg:mt-0 mr-4">
+                        <p className="block mt-4 mb-10 lg:inline-block lg:mt-0 mr-4">
                             ABOUT
                         </p>
                     </Link>
