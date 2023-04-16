@@ -5,7 +5,7 @@ type Props = {}
 const Footer = (props: Props) => {
     return (
 
-        <footer className="bg-[#171B24] text-white mt-80">
+        <footer className="bg-[#171B24] text-white mt-36">
             <p className='text-5xl p-4'>Hugo Alaimo</p>
             <p className='p-4'>This is a brand statement text so users understand me better.</p>
             <div className='p-4 flex items-center'>
@@ -32,6 +32,7 @@ const Footer = (props: Props) => {
                 <p className='mb-3'>Design</p>
                 <p className='mb-3'>Photography</p>
             </div>
+            <p className='p-4'>Designed by Gab, built with 🤍 by Milky.</p>
         </footer>
 
     )

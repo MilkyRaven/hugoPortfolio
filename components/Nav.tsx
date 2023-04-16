@@ -11,7 +11,7 @@ const Nav = () => {
     return (
         <nav className="flex items-center justify-between flex-wrap bg-white p-8">
             <div className="flex items-center flex-shrink-0 mr-6">
-                <h1 className='font-Temeraire text-6xl'>HUGO</h1>
+                <Link href={'/'}><h1 className='font-Temeraire text-6xl'>HUGO</h1></Link>
             </div>
             <div className="block lg:hidden">
                 <button
