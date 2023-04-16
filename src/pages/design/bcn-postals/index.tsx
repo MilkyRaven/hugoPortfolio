@@ -13,7 +13,7 @@ export default function project() {
                 <div className='flex flex-col items-center'>
                     <div className='w-[361px] h-[606px] mt-4 mb-4 bg-slate-300'></div>
                 </div>
-                <p className='ml-10 mr-10 mt-9 mb-9'>“BCN POSTALS” is a series of fun, minimal postcards which represent 5 key elements of Barcelona’s identity. Art. Arquitectura. Barri. Gastronmia. And of course la Platija. </p>
+                <p className='ml-10 mr-10 mt-9 mb-9'>“BCN POSTALS” is a series of fun, minimal postcards which represent 5 key elements of Barcelona&apos;s identity. Art. Arquitectura. Barri. Gastronmia. And of course la Platija. </p>
                 <div className='flex flex-col items-center'>
                     <div className='w-[280px] h-[454px] mt-4 mb-4 bg-slate-300'></div>
                     <p>Postal package model.</p>
@@ -30,7 +30,7 @@ export default function project() {
                 <div className='flex flex-col items-center'>
                     <div className='w-[363px] h-[210px] bg-slate-300'>
                     </div>
-                    <p className='ml-4'>Painted acrylic postcards, 'liquid' casing & custom envelopes.</p>
+                    <p className='ml-4'>Painted acrylic postcards, &apos;liquid&apos; casing & custom envelopes.</p>
                 </div>
                 <p className='text-xl m-10'>Closing statement for extra coolness
                     postals son vida, vida son postals idk your the artist think of something.</p>

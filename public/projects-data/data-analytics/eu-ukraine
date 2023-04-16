@@ -1,5 +1,5 @@
 {
-  "introduction": "To investigate whether there is a relationship between EU member state's economic strength (understood in terms of GDP) and the amount of Ukrainian refugees hosted by these countries.",
+  "introduction": "To investigate whether there is a relationship between EU member state&apos;s economic strength (understood in terms of GDP) and the amount of Ukrainian refugees hosted by these countries.",
   "questionsAndHypothesis": [
     {
       "question": "Do countries with a higher GDP accept larger quantities of refugees?",
@@ -7,7 +7,7 @@
     },
     {
       "question": "Is there a correlation between refugee numbers and distance to Ukraine?",
-      "hypothesis": "Countries with a closer proximity to Ukraine have a higher intake of refugees. However, those that have displayed an 'open border' policy in recent times to refugees would also accept higher numbers."
+      "hypothesis": "Countries with a closer proximity to Ukraine have a higher intake of refugees. However, those that have displayed an &apos;open border&apos; policy in recent times to refugees would also accept higher numbers."
     },
     {
       "question": "Can larger EU economies accept more refugees?",
