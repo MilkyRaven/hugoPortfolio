@@ -9,7 +9,7 @@ const Hi = (props: Props) => {
             <div className="absolute top-0 left-0 w-full h-full bg-slate-300 opacity-80"></div>
             <div className="absolute top-0 left-0 w-full h-full flex items-end justify-left">
                 <h1 className="text-3xl text-white ml-10 mb-5 z-10 font-crimson">
-                    WELCOME TO <br /> MY PORTFOLIO, <br /> I'M
+                    WELCOME TO <br /> MY PORTFOLIO, <br /> IM
                 </h1>
                 <Image
                     alt="hugo"

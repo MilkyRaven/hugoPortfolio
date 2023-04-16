@@ -1,17 +1,22 @@
 import Link from "next/link"
+import Nav from "../../../components/Nav"
+import Footer from "../../../components/Footer"
 
 export default function Photography() {
     return <div>
-        <Link href={'/'}>Return Home</Link>
-        <h1>Photography</h1>
-        <div className="pic">
-        <Link href={'/photography/gallery1'}><p className="galleryText">Click to see the gallery</p></Link>
+        <Nav></Nav>
+        <div className="m-10">
+            <h1 className="text-4xl">Photography</h1>
+            <p className="text-xl mt-2">This is a text about what I do with my photography work, how I got here, why, and anything else to give readers a feel for what they might encounter in this section</p>
         </div>
-        <div className="pic">
-        <Link href={'/photography/gallery2'}><p>Click to see the gallery</p></Link>
+
+        <Link href={'/photography/gallery1'}><div className="bg-slate-300 w-80 h-[420px] m-10">
+            <div className="bg-black text-white p-4 opacity-70">
+                <p className="text-4xl">Title of the Project</p>
+                <p className="text-base mt-2">Description of the project</p>
+            </div>
         </div>
-        <div className="pic">
-        <Link href={'/photography/gallery3'}><p>Click to see the gallery</p></Link>
-        </div>
+        </Link>
+        <Footer></Footer>
     </div>
 }
