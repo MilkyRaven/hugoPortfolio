@@ -22,7 +22,7 @@ export default function project() {
                     <div className='w-[280px] h-[454px] mt-4 mb-4 bg-slate-300'></div>
                     <p>Postal envelope model.</p>
                 </div>
-                <p className='ml-10 mr-10 mt-9 mb-9'>A postcard isn't just about what you see, it's also about how it makes you feel. BCN Postals achieves that through a more interactive and stimulating experience.</p>
+                <p className='ml-10 mr-10 mt-9 mb-9'>A postcard isn&apos;t just about what you see, it&apos;s also about how it makes you feel. BCN Postals achieves that through a more interactive and stimulating experience.</p>
                 {/* <div className='flex flex-row'>
                     <div className='w-[177px] h-[326px]'></div>
                     <div className='w- h-'></div>

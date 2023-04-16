@@ -15,7 +15,7 @@ export default function project() {
                     <div>
                         <p className='text-3xl'> Introduction</p>
                         <p className='text-xl'>Project Focus</p>
-                        <p className='text-xl'>To invesitgate whether there is a relationship between EU memberstate's economic strength (understood in terms of GDP) and the amount of Ukrainian refugees hosted by these countries.</p>
+                        <p className='text-xl'>To invesitgate whether there is a relationship between EU member state&apos;s economic strength (understood in terms of GDP) and the amount of Ukrainian refugees hosted by these countries.</p>
                     </div>
                 </div>
                 < div className='ml-10 mr-10 mt-9 mb-9'>
@@ -25,7 +25,7 @@ export default function project() {
                             Do countries with a higher GDP accept larger quantites of refugees?
                             Is there a correlation between refugee numbers and distance to Ukraine?
                             Can larger EU economies accept more refugees?
-                            Hypothesis: Countries with a closer proximity to Ukraine have a higher intake of refugees. However that have displayed an 'open boarder' policy in recent to refugees would also accept higher numbers. I believe there to be a moral case for EU member states with a high GDP rate to accept more refugees.</p>
+                            Hypothesis: Countries with a closer proximity to Ukraine have a higher intake of refugees. However that have displayed an &apos;open boarder&apos; policy in recent to refugees would also accept higher numbers. I believe there to be a moral case for EU member states with a high GDP rate to accept more refugees.</p>
                     </div>
                 </div>
                 <div className='ml-10 mr-10 mt-9 mb-9'>
