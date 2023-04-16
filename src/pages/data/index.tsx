@@ -5,36 +5,18 @@ import Footer from "../../../components/Footer"
 export default function Data() {
     return <div>
         <Nav></Nav>
-        <div className="mt-14 ml-6 mr-6 mb-24">
-            <h1 className='text-4xl'>DATA ANALYTICS</h1>
-            <Link href={'/data/eu-and-ukranian-refugees'}>
-                <div className="flex mt-8 mb-8 place-content-between">
-                    <div>
-                        <h2 className="text-4xl">The EU & Ukrainian Refugees</h2>
-                        <h3 className="text-2xl">Exploring the relationship between GDP and refugee hosting</h3>
-                    </div>
-                    <div className="w-16 h-36 bg-slate-300"></div>
-                </div>
-            </Link>
-            <Link href={'/data/project2'}>
-                <div className="flex mt-8 mb-8 place-content-between">
-                    <div>
-                        <h2 className="text-4xl">Project 2</h2>
-                        <h3 className="text-2xl">subtitle</h3>
-                    </div>
-                    <div className="w-40 h-36 bg-slate-300"></div>
-                </div>
-            </Link>
-            <Link href={'/data/project3'}>
-                <div className="flex mt-8 mb-8 place-content-between">
-                    <div>
-                        <h2 className="text-4xl">Project 3</h2>
-                        <h3 className="text-2xl">subtitle</h3>
-                    </div>
-                    <div className="w-16 h-36 bg-slate-300"></div>
-                </div>
-            </Link>
+        <div className="m-10">
+            <h1 className="text-4xl">Data Analytics</h1>
+            <p className="text-xl mt-2">This is a text about what I do with my data analytics work, how I got here, why, and anything else to give readers a feel for what they might encounter in this section</p>
         </div>
+
+        <Link href={'/data/eu-ukranian-refugees'}><div className="bg-slate-300 w-80 h-[420px] m-10 relative">
+            <div className="bg-black text-white p-4 opacity-70 absolute bottom-0 w-full">
+                <p className="text-4xl">THE EU & UKRANIAN REFUGEES</p>
+                <p className="text-base mt-2">Exploring the relationship between GDP and refugee hosting</p>
+            </div>
+        </div>
+        </Link>
         <Footer></Footer>
     </div>
 }

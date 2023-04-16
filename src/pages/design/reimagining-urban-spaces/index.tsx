@@ -1,7 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
-import Nav from '../../../components/Nav'
-import Footer from '../../../components/Footer'
+import Nav from '../../../../components/Nav'
+import Footer from '../../../../components/Footer'
+
 export default function project() {
     return (
         <div>
@@ -21,7 +22,7 @@ export default function project() {
                 </div>
                 <div className='w-80 h-40 mt-4 mb-4 bg-slate-300'></div>
                 <div className='flex justify-center'>
-                <div className='w-52 h-40 mt-4 mb-4 bg-slate-300'></div>
+                    <div className='w-52 h-40 mt-4 mb-4 bg-slate-300'></div>
                 </div>
             </div>
             <Footer></Footer>

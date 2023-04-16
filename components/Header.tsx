@@ -1,5 +1,6 @@
+import Link from 'next/link'
 import React from 'react'
-import Button from './Button'
+
 
 
 export default function Header() {
@@ -9,7 +10,11 @@ export default function Header() {
                 {/* <FaBars /> */}
                 <h1 className='text-3xl p-4 font-jost'>Data Analyst, Designer & Photographer</h1>
                 <div className='m-6 flex justify-end'>
-                    <Button></Button>
+                    <Link href={'/contact'}>
+                        <button className='bg-dark-blue text-white rounded-lg'>
+                            <p className='pt-2 pb-2 pl-3 pr-3 text-lg'>contact me</p>
+                        </button>
+                    </Link>
                 </div>
             </div>
             <div>

@@ -16,6 +16,12 @@ module.exports = {
         jost: ["Jost", "sans-serif"],
         chopper: ["Chopper"],
       },
+      colors: {
+        "dark-blue": "#465573",
+        "medium-blue": "#7187B1",
+        "light-blue": "#89A8E4",
+        "super-light-blue": "#A1C1FF",
+      },
     },
   },
   plugins: [],
