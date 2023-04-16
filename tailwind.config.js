@@ -11,9 +11,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        Temeraire: ["temeraire", "serif"],
         crimson: ["Crimson Pro", "serif"],
-        jost: ['Jost', 'sans-serif'],
-        chopper: ['Chopper']
+        jost: ["Jost", "sans-serif"],
+        chopper: ["Chopper"],
       },
     },
   },
