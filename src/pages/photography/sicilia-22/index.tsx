@@ -30,9 +30,10 @@ export default function Gallery() {
                 <div className='bg-slate-300 w-48 h-72 mb-9' onClick={() => handleImageClick("https://i.imgur.com/xIr9zQh.jpg")}>
                 </div>
                 {showModal && (
-                    <div>
-                        <PicModal imageUrl={selectedImage} />
-                        <p onClick={() => closeImage()}>Close</p>
+                    <div className='fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-white' onClick={() => closeImage()}>
+                        <div className='absolute bg-white p-4'>
+                            <PicModal imageUrl={selectedImage} />
+                        </div>
                     </div>
                 )}
                 {/* <p onClick={() => {
