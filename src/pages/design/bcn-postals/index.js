@@ -11,7 +11,7 @@ export default function Project() {
   const carousel = useRef();
   useEffect(() => {
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
-  }, []);
+  });
   return (
     <div>
       <Nav></Nav>
