@@ -46,7 +46,7 @@ export default function Project() {
             ref={carousel}
             className="cursor-grab"
             drag="x"
-            dragConstraints={{ right: 0, left: -width }}
+            dragConstraints={{ right: 0, left: -750 }}
           >
             <motion.div className="flex justify-start items-start">
               <motion.div className="p-4 min-h-xl max-w-2xl flex">
