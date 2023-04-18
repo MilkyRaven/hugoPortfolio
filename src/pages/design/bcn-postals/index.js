@@ -3,16 +3,15 @@ import { useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import images from "../../../../images";
 import Footer from "../../../../components/Footer";
 import Nav from "../../../../components/Nav";
-export default function project() {
+
+export default function Project() {
   const [width, setWidth] = useState(0);
   const carousel = useRef();
-
   useEffect(() => {
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
-  });
+  }, []);
   return (
     <div>
       <Nav></Nav>
@@ -41,27 +40,43 @@ export default function project() {
           interactive and stimulating experience.
         </p>
         {/* Slider Here */}
-        <motion.div
-          ref={carousel}
-          className="cursor-grab overflow-visible"
-          drag="x"
-          dragConstraints={{ right: 0, left: -width }}
-        >
-          <motion.div className="flex">
-            {images.map((image) => {
-              return (
-                <motion.div className="p-4 min-h-xl max-w-2xl">
-                  <Image
-                    className="max-w-none w-80 h-100%"
-                    key={image.src}
-                    src={image}
-                    alt="design examples"
-                  ></Image>
-                </motion.div>
-              );
-            })}
+        <div className="w-screen overflow-scroll scrollbar-hide">
+          <motion.div
+            ref={carousel}
+            className="cursor-grab"
+            drag="x"
+            dragConstraints={{ right: 0, left: -width }}
+          >
+            <motion.div className="flex justify-start items-start">
+              <motion.div className="p-4 min-h-xl max-w-2xl flex">
+                <Image
+                  className="max-w-none w-80 h-100% p-2"
+                  width={300}
+                  height={200}
+                  key={1}
+                  src={"https://i.imgur.com/wmBg97c.jpg"}
+                  alt="hugo"
+                ></Image>
+                <Image
+                  width={300}
+                  height={200}
+                  className="max-w-none w-80 h-100% p-2"
+                  key={2}
+                  src={"https://i.imgur.com/bj0nU8n.jpg"}
+                  alt="blue"
+                ></Image>
+                <Image
+                  className="max-w-none w-80 h-100% p-2"
+                  width={300}
+                  height={200}
+                  key={3}
+                  src={"https://i.imgur.com/NE8mFa4.jpg"}
+                  alt="flower"
+                ></Image>
+              </motion.div>
+            </motion.div>
           </motion.div>
-        </motion.div>
+        </div>
         <div className="flex flex-col items-center">
           <div className="w-[363px] h-[210px] bg-slate-300"></div>
           <p className="ml-4">

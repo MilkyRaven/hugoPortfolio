@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 interface ModalProps {
     imageUrl: string;
@@ -8,7 +9,7 @@ interface ModalProps {
 const PicModal: React.FC<ModalProps> = ({ imageUrl }) => {
     return (
         <div className="modal">
-            <img src={imageUrl} />
+            <Image alt='modal' src={imageUrl} />
         </div>
     );
 }
