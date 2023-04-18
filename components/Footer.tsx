@@ -1,8 +1,7 @@
 import React from 'react'
+import Link from 'next/link'
 
-type Props = {}
-
-const Footer = (props: Props) => {
+const Footer = () => {
     return (
 
         <footer className="bg-[#171B24] text-white mt-36">
@@ -22,15 +21,15 @@ const Footer = (props: Props) => {
             </div>
             <div className='p-4'>
                 <div className='flex mb-3'>
-                    <p className='pr-28'>Home</p>
-                    <p>About</p>
+                    <Link href={'/'}><p className='pr-28'>Home</p></Link>
+                    <Link href={'about'}><p>About</p></Link>
                 </div>
                 <div className='flex mb-3'>
-                    <p>Data</p>
-                    <p className='pl-28'>Contact</p>
+                    <Link href={'/data'}><p>Data</p></Link>
+                    <Link href={'/contact'}><p className='pl-28'>Contact</p></Link>
                 </div>
-                <p className='mb-3'>Design</p>
-                <p className='mb-3'>Photography</p>
+                <Link href={'/design'}><p className='mb-3'>Design</p></Link>
+                <Link href={'/photography'}><p className='mb-3'>Photography</p></Link>
             </div>
             <p className='p-4'>Designed by Gab, built with 🤍 by Milky.</p>
         </footer>
