@@ -24,6 +24,13 @@ export default function Design() {
             </div>
         </div>
         </Link>
+        <Link href={'/design/damien-hirst'}><div className="bg-slate-300 w-80 h-[420px] m-10 relative">
+            <div className="bg-black text-white p-4 opacity-70 absolute bottom-0 w-full">
+                <p className="text-4xl">DAMIEN HIRST</p>
+                <p className="text-base mt-2">A life in art</p>
+            </div>
+        </div>
+        </Link>
         <Footer></Footer>
     </div>
 }
