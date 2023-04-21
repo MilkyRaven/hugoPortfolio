@@ -1,10 +1,14 @@
 import '@/styles/globals.css'
 import { Jost } from 'next/font/google'
+
 import type { AppProps } from 'next/app'
 
+
+
 const jost = Jost({
+  weight: ['300', '400'],
+  style: ['normal'],
   subsets: ['latin'],
-  weight: '300'
 })
 
 

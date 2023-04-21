@@ -11,10 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Temeraire: ["temeraire", "serif"],
         crimson: ["Crimson Pro", "serif"],
-        jost: ["Jost", "sans-serif"],
-        chopper: ["Chopper"],
       },
       colors: {
         "dark-blue": "#465573",

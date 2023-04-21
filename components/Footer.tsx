@@ -5,8 +5,8 @@ const Footer = () => {
     return (
 
         <footer className="bg-[#171B24] text-white mt-36">
-            <p className='text-5xl p-4'>Hugo Alaimo</p>
-            <p className='p-4'>This is a brand statement text so users understand me better.</p>
+            <p className='text-4xl p-4 title'>Hugo Alaimo</p>
+            <p className='p-4 text-base'>This is a brand statement text so users understand me better.</p>
             <div className='p-4 flex items-center'>
                 <svg className='mr-7' width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M33.6084 16.5514C34.8013 16.5514 35.7684 15.5844 35.7684 14.3914C35.7684 13.1985 34.8013 12.2314 33.6084 12.2314C32.4154 12.2314 31.4484 13.1985 31.4484 14.3914C31.4484 15.5844 32.4154 16.5514 33.6084 16.5514Z" fill="white" />
