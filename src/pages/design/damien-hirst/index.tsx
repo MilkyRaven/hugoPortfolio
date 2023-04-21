@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Nav from '../../../../components/Nav'
 import Footer from '../../../../components/Footer'
+import ProjectButtonLeft from '../../../../components/ProjectButtonLeft'
 
 export default function project() {
     return (
@@ -31,12 +32,8 @@ export default function project() {
                 <p className='ml-10 mr-10 mt-9 mb-9'>Closing statement for extra coolness
                     the real damian hirst are the friends we made along the way idk your the artist think of something.</p>
             </div>
-            <Link href={'/design/reimagining-urban-spaces'}><div className='flex justify-start'>
-                <div className='flex shadow-xl w-[164px] h-[77px] p-2 rounded-xl items-center'>
-                    <div className='w-10 h-10 p-4 m-2 bg-slate-300'></div>
-                    <p>Reimagining Urban Spaces</p>
-                </div>
-            </div></Link>
+            <ProjectButtonLeft title='Reimagining 
+Urban Spaces' url='/design/reimagining-urban-spaces'></ProjectButtonLeft>
             <Footer></Footer>
         </div>
     )

@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import Nav from '../../../../components/Nav'
 import Footer from '../../../../components/Footer'
+import ProjectButtonRight from '../../../../components/ProjectButtonRight'
+import ProjectButtonLeft from '../../../../components/ProjectButtonLeft'
 
 export default function project() {
     return (
@@ -48,12 +50,10 @@ export default function project() {
                 <p className='text-xl m-10'>Closing statement for extra coolness
                     postals son vida, vida son postals idk your the artist think of something.</p>
             </div>
-            <Link href={'/design/bcn-postals'}><div className='flex justify-start'>
-                <div className='flex shadow-xl w-[164px] h-[77px] p-2 rounded-xl items-center'>
-                    <div className='w-10 h-10 p-4 m-2 bg-slate-300'></div>
-                    <p>BCN postals</p>
-                </div>
-            </div></Link>
+            <div className='flex justify-between'>
+                <ProjectButtonLeft title='BCN Postals' url='/design/bcn-postals'></ProjectButtonLeft>
+                <ProjectButtonRight title='Damien Hirst' url='/design/damien-hirst'></ProjectButtonRight>
+            </div>
             <Footer></Footer>
         </div>
     )

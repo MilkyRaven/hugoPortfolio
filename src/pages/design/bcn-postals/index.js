@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useState, useRef } from "react";
+import ProjectButtonRight from "../../../../components/ProjectButtonRight";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -52,16 +53,16 @@ export default function Project() {
               <motion.div className="p-4 min-h-xl max-w-2xl flex">
                 <Image
                   className="max-w-none w-80 h-100% p-2"
-                  width={300}
-                  height={200}
+                  width={177}
+                  height={326}
                   key={1}
                   src={"https://i.imgur.com/wmBg97c.jpg"}
                   alt="hugo"
                 ></Image>
                 <Image
-                  width={300}
+                  width={30}
                   height={200}
-                  className="max-w-none w-80 h-100% p-2"
+                  className="max-w-none w-80 h-100% p-2 ml-12"
                   key={2}
                   src={"https://i.imgur.com/bj0nU8n.jpg"}
                   alt="blue"
@@ -90,14 +91,10 @@ export default function Project() {
           postals idk your the artist think of something.
         </p>
       </div>
-      <Link href={"/design/reimagining-urban-spaces"}>
-        <div className="flex justify-end">
-          <div className="flex shadow-xl w-[164px] h-[77px] p-2 rounded-xl items-center">
-            <p>Reimagining Urban Spaces</p>
-            <div className="w-10 h-10 p-4 bg-slate-300"></div>
-          </div>
-        </div>
-      </Link>
+      <ProjectButtonRight
+        title="Reimagining Urban Spaces"
+        url="/design/reimagining-urban-spaces"
+      ></ProjectButtonRight>
       <Footer></Footer>
     </div>
   );
