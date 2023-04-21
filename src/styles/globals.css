@@ -1,14 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Jost:wght@300&display=swap');
 
-@layer base {
-    @font-face {
-        font-family: 'Chopper';
-        src: url('/fonts/Chopper.ttf') format('ttf');
-        font-weight: 400;
-        font-display: swap;
-        font-style: normal;
-    }
+.title {
+    font-family: temeraire, serif;
+font-weight: 400;
+font-style: normal;
 }
+
+.special {
+    font-family: 'Crimson Pro', serif;
+}
+.regular {
+font-family: 'Jost', sans-serif;
+}
+
