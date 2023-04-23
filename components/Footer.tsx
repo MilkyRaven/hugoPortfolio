@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Footer = () => {
     return (
 
-        <footer className="bg-[#171B24] text-white mt-36">
+        <footer className="bg-[#171B24] text-white">
             <p className='text-4xl p-4 title'>Hugo Alaimo</p>
             <p className='p-4 text-base'>This is a brand statement text so users understand me better.</p>
             <div className='p-4 flex items-center'>

@@ -6,6 +6,7 @@ import Typing from '../../components/Typing'
 import DataAnalytics from '../../components/landing-page/DataAnalytics'
 import Design from '../../components/landing-page/Design'
 import Photography from '../../components/landing-page/Photography'
+import BrandStatement from '../../components/landing-page/BrandStatement'
 import Footer from '../../components/Footer'
 
 
@@ -30,6 +31,7 @@ export default function Home() {
         <Design></Design>
         {/* Photography */}
         <Photography></Photography>
+        <BrandStatement></BrandStatement>
         <Footer></Footer>
       </main>
     </>
